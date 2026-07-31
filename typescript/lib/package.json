@@ -1,6 +1,6 @@
 {
   "name": "pareto-core-application",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "Apache-2.0",
   "author": "Corno",
   "description": "the pareto core package for creating a main function in a nodejs host environment",
