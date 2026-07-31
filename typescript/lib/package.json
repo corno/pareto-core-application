@@ -1,0 +1,37 @@
+{
+  "name": "pareto-core-application",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "author": "Corno",
+  "description": "the pareto core package for creating a main function in a nodejs host environment",
+  "keywords": [
+    "pareto",
+    "nodejs host environment"
+  ],
+  "homepage": "https://github.com/corno/pareto-core-application#readme",
+  "bugs": {
+    "url": "https://github.com/corno/pareto-core-application/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corno/pareto-core-application.git"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  },
+  "type": "module",
+  "exports": {
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "default": "./dist/*.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "pareto-application-api": "^0.1.0"
+  }
+}

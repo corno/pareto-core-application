@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "declaration": true,
+        "forceConsistentCasingInFileNames": true,
+        "inlineSourceMap": true,
+        "module": "nodenext",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true,
+        "target": "es2015",
+        "types": ["node"],
+        "verbatimModuleSyntax": true
+    },
+    "include": [
+      "./src"
+    ]
+}
