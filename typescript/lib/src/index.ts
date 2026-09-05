@@ -1,5 +1,5 @@
-import * as p_ from 'pareto-core/implementation/command'
-import * as p_ci from 'pareto-core/interface/command_interface'
+import * as p_ from 'pareto-core/command'
+import * as p_ci from 'pareto-core/command_interface'
 
 /**
  * Runs a program main function, passing command line arguments (excluding
